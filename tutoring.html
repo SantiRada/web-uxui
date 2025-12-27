@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tutorías personalizadas de UX/UI - Mentoría 1 a 1 para acelerar tu carrera en diseño">
+    <title>Tutorías 1 a 1 - UX/UI Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">UX/UI Academy</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="courses.html" class="nav-link">Cursos</a></li>
+                <li><a href="tutoring.html" class="nav-link btn-primary">Tutorías</a></li>
+                <li><a href="live-courses.html" class="nav-link">En Vivo</a></li>
+                <li><a href="business.html" class="nav-link">Empresas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>🎯 Tutorías 1 a 1</h1>
+            <p>
+                Mentoría personalizada para llevar tus habilidades de diseño al siguiente nivel.
+                Sesiones adaptadas a tus necesidades específicas con feedback profesional directo.
+            </p>
+        </div>
+    </header>
+
+    <!-- What is Tutoring Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>¿Qué son las tutorías 1 a 1?</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        Las tutorías son sesiones personalizadas de mentoría donde trabajamos juntos en lo que
+                        TÚ necesitas. A diferencia de los cursos pregrabados donde todos ven el mismo contenido,
+                        aquí el foco está 100% en tus objetivos, dudas y proyectos específicos.
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        Cada sesión dura 1 hora y podemos trabajar en lo que más te ayude en este momento:
+                        revisar tu portfolio, resolver dudas técnicas, prepararte para entrevistas,
+                        feedback sobre proyectos, planificar tu carrera, o cualquier desafío específico que enfrentes.
+                    </p>
+                    <p>
+                        No hay una agenda fija. Tú decides qué necesitas trabajar y yo te guío con mi experiencia
+                        y conocimiento de la industria. Es como tener un mentor senior a tu disposición.
+                    </p>
+                </div>
+                <div class="about-image-placeholder" style="background: var(--secondary-color);">
+                    🎓
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who is it for Section -->
+    <section class="section" style="background: var(--gray-100); border-top: var(--border-width) solid var(--black); border-bottom: var(--border-width) solid var(--black);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">¿Es para ti?</span>
+                <h2 class="section-title">Para quién son las tutorías</h2>
+            </div>
+
+            <div class="preview-grid">
+                <div class="preview-card" style="background: var(--accent-yellow);">
+                    <div class="preview-icon">🌱</div>
+                    <h3>Principiantes</h3>
+                    <p>
+                        Estás comenzando en UX/UI y necesitas orientación sobre por dónde empezar,
+                        qué aprender primero, o cómo construir tu primer proyecto para el portfolio.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--secondary-color);">
+                    <div class="preview-icon">📈</div>
+                    <h3>Diseñadores en transición</h3>
+                    <p>
+                        Vienes de diseño gráfico, desarrollo, o marketing y quieres hacer el salto a UX/UI.
+                        Te ayudo a identificar tus skills transferibles y llenar los gaps.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--accent-orange);">
+                    <div class="preview-icon">🚀</div>
+                    <h3>Diseñadores buscando trabajo</h3>
+                    <p>
+                        Necesitas prepararte para entrevistas, mejorar tu portfolio, o entender
+                        qué buscan los reclutadores. Te ayudo a destacar en el mercado.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--accent-purple);">
+                    <div class="preview-icon">💼</div>
+                    <h3>Diseñadores profesionales</h3>
+                    <p>
+                        Ya trabajas en diseño pero quieres mejorar en áreas específicas, resolver
+                        desafíos complejos, o tener un sounding board para tus decisiones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Can Work On -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Áreas de enfoque</span>
+                <h2 class="section-title">En qué puedo ayudarte</h2>
+                <p class="section-description">
+                    Estas son algunas de las áreas más comunes en las que trabajo con mis estudiantes,
+                    pero no es una lista exhaustiva. Si tienes otro desafío, háblame de él.
+                </p>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="about-highlight" style="margin-bottom: 1.5rem;">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">📁 Revisión de Portfolio</h4>
+                    <p style="margin: 0;">
+                        Analizamos tu portfolio juntos. Te digo qué funciona, qué no, y cómo mejorarlo
+                        para impresionar a reclutadores. Desde la estructura hasta cómo presentas cada caso de estudio.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--secondary-color);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">🎨 Feedback de Proyectos</h4>
+                    <p style="margin: 0;">
+                        ¿Trabajando en un proyecto y no sabes si vas por buen camino? Revisamos juntos tus diseños,
+                        decisiones y te doy feedback constructivo basado en mejores prácticas de la industria.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--accent-orange);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">💼 Preparación para Entrevistas</h4>
+                    <p style="margin: 0;">
+                        Practicamos preguntas comunes, trabajamos en tu portfolio presentation,
+                        y te preparo para los desafíos de diseño en vivo que muchas empresas piden.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--accent-yellow);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">🗺️ Planificación de Carrera</h4>
+                    <p style="margin: 0;">
+                        ¿No sabes qué paso dar siguiente? Te ayudo a crear un plan claro para alcanzar tus objetivos,
+                        ya sea conseguir tu primer trabajo, dar el salto a senior, o especializarte.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--accent-purple);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">🛠️ Resolución de Problemas Específicos</h4>
+                    <p style="margin: 0;">
+                        ¿Atascado en un desafío de diseño? ¿No sabes cómo abordar un problema complejo?
+                        Trabajamos juntos para encontrar soluciones efectivas.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="background: var(--primary-color);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">📚 Guía de Aprendizaje</h4>
+                    <p style="margin: 0;">
+                        Con tantos recursos disponibles, es fácil perderse. Te ayudo a crear un plan de
+                        aprendizaje personalizado enfocado en lo que realmente necesitas para tus objetivos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="section" style="background: var(--gray-100); border-top: var(--border-width) solid var(--black); border-bottom: var(--border-width) solid var(--black);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Cómo funcionan las tutorías?</h2>
+            </div>
+
+            <div class="preview-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <div class="preview-card" style="background: var(--white);">
+                    <div class="preview-icon">1️⃣</div>
+                    <h3>Agenda tu sesión</h3>
+                    <p>
+                        Completa el formulario de contacto indicando qué te gustaría trabajar.
+                        Te envío opciones de horarios disponibles.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--white);">
+                    <div class="preview-icon">2️⃣</div>
+                    <h3>Prepara el material</h3>
+                    <p>
+                        Si vamos a revisar algo específico (portfolio, proyecto, etc.),
+                        me lo envías con anticipación para aprovecharlo al máximo la sesión.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--white);">
+                    <div class="preview-icon">3️⃣</div>
+                    <h3>Sesión en vivo</h3>
+                    <p>
+                        Nos reunimos por videollamada durante 1 hora. Trabajamos en tus objetivos,
+                        resolvemos dudas y creas un plan de acción.
+                    </p>
+                </div>
+
+                <div class="preview-card" style="background: var(--white);">
+                    <div class="preview-icon">4️⃣</div>
+                    <h3>Seguimiento</h3>
+                    <p>
+                        Después de la sesión, te envío un resumen con las recomendaciones,
+                        recursos y next steps discutidos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Inversión</span>
+                <h2 class="section-title">Paquetes de tutorías</h2>
+                <p class="section-description">
+                    Elige la opción que mejor se adapte a tus necesidades
+                </p>
+            </div>
+
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-thumbnail" style="background: var(--accent-yellow);">
+                        📝
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Sesión Individual</h3>
+                        <p class="course-description">
+                            Perfecta para consultas puntuales o si quieres probar cómo funcionan las tutorías.
+                        </p>
+                        <ul style="margin-bottom: 1rem; padding-left: 1.5rem; color: var(--gray-800);">
+                            <li>• 1 sesión de 60 minutos</li>
+                            <li>• Videollamada 1 a 1</li>
+                            <li>• Resumen post-sesión</li>
+                            <li>• Recursos y recomendaciones</li>
+                        </ul>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$89</span>
+                            </div>
+                            <a href="#contact-form" class="btn btn-primary">Agendar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-thumbnail" style="background: var(--secondary-color);">
+                        📚
+                        <span class="course-badge">Más popular</span>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Paquete 4 Sesiones</h3>
+                        <p class="course-description">
+                            Ideal para trabajar en objetivos más amplios con seguimiento continuo.
+                        </p>
+                        <ul style="margin-bottom: 1rem; padding-left: 1.5rem; color: var(--gray-800);">
+                            <li>• 4 sesiones de 60 minutos</li>
+                            <li>• Válido por 2 meses</li>
+                            <li>• Plan personalizado</li>
+                            <li>• Soporte por email entre sesiones</li>
+                        </ul>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$299</span>
+                                <span class="price-original">$356</span>
+                            </div>
+                            <a href="#contact-form" class="btn btn-primary">Agendar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-thumbnail" style="background: var(--accent-purple);">
+                        🚀
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Mentoría Intensiva</h3>
+                        <p class="course-description">
+                            Transformación completa. Para quienes quieren resultados serios y rápidos.
+                        </p>
+                        <ul style="margin-bottom: 1rem; padding-left: 1.5rem; color: var(--gray-800);">
+                            <li>• 8 sesiones de 60 minutos</li>
+                            <li>• Válido por 3 meses</li>
+                            <li>• Roadmap personalizado</li>
+                            <li>• Soporte prioritario</li>
+                        </ul>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$549</span>
+                                <span class="price-original">$712</span>
+                            </div>
+                            <a href="#contact-form" class="btn btn-primary">Agendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background: var(--accent-blue); border-top: var(--border-width) solid var(--black); border-bottom: var(--border-width) solid var(--black);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen mis estudiantes</h2>
+            </div>
+
+            <div class="preview-grid">
+                <div class="preview-card" style="background: var(--white);">
+                    <p style="font-style: italic; margin-bottom: 1rem; font-size: 1.125rem;">
+                        "Las tutorías fueron exactamente lo que necesitaba. En 4 sesiones reestructuré
+                        completamente mi portfolio y conseguí mi primer trabajo como UX designer."
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 50px; height: 50px; background: var(--accent-yellow); border: 4px solid var(--black); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                            👩
+                        </div>
+                        <div>
+                            <strong>María González</strong>
+                            <p style="margin: 0; color: var(--gray-800); font-size: 0.875rem;">Junior UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preview-card" style="background: var(--white);">
+                    <p style="font-style: italic; margin-bottom: 1rem; font-size: 1.125rem;">
+                        "El feedback sobre mi trabajo fue invaluable. Me ayudó a ver cosas que por mi cuenta
+                        nunca hubiera notado. Totalmente recomendado."
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 50px; height: 50px; background: var(--secondary-color); border: 4px solid var(--black); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                            👨
+                        </div>
+                        <div>
+                            <strong>Carlos Ramírez</strong>
+                            <p style="margin: 0; color: var(--gray-800); font-size: 0.875rem;">Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preview-card" style="background: var(--white);">
+                    <p style="font-style: italic; margin-bottom: 1rem; font-size: 1.125rem;">
+                        "Estaba perdida sobre por dónde empezar mi carrera en UX. Las tutorías me dieron
+                        un roadmap claro y ahora sé exactamente qué pasos seguir."
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 50px; height: 50px; background: var(--accent-orange); border: 4px solid var(--black); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                            👩
+                        </div>
+                        <div>
+                            <strong>Ana Martínez</strong>
+                            <p style="margin: 0; color: var(--gray-800); font-size: 0.875rem;">Estudiante UX/UI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="about-highlight" style="margin-bottom: 1.5rem;">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">¿Las sesiones son en vivo?</h4>
+                    <p style="margin: 0;">
+                        Sí, todas las sesiones son por videollamada en tiempo real. Así puedo darte
+                        feedback inmediato y responder tus preguntas al instante.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--secondary-color);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">¿Necesito preparar algo?</h4>
+                    <p style="margin: 0;">
+                        Depende de qué queramos trabajar. Si revisamos portfolio o proyectos, es bueno
+                        enviármelo antes. Pero si es una sesión de consulta general, no necesitas nada especial.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="margin-bottom: 1.5rem; background: var(--accent-orange);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">¿Qué pasa si necesito reprogramar?</h4>
+                    <p style="margin: 0;">
+                        Sin problema. Solo avísame con al menos 24 horas de anticipación y
+                        coordinamos una nueva fecha.
+                    </p>
+                </div>
+
+                <div class="about-highlight" style="background: var(--accent-purple);">
+                    <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem;">¿Hay garantía?</h4>
+                    <p style="margin: 0;">
+                        Si después de la primera sesión sientes que no fue útil, te devuelvo tu dinero.
+                        Así de simple.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form" class="section" style="background: var(--gray-100); border-top: var(--border-width) solid var(--black); border-bottom: var(--border-width) solid var(--black);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Agenda tu primera sesión</h2>
+                <p class="section-description">
+                    Completa el formulario y me pondré en contacto contigo en menos de 24 horas
+                    para coordinar horarios y detalles.
+                </p>
+            </div>
+
+            <div style="max-width: 600px; margin: 0 auto; background: var(--white); padding: 3rem; border: var(--border-width) solid var(--black); box-shadow: var(--shadow-lg);">
+                <form id="tutoringForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level">Tu nivel actual</label>
+                        <select id="level" name="level" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="beginner">Principiante (estoy comenzando)</option>
+                            <option value="intermediate">Intermedio (tengo algo de experiencia)</option>
+                            <option value="advanced">Avanzado (busco especializarme)</option>
+                            <option value="professional">Profesional (ya trabajo en diseño)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="package">Paquete de interés</label>
+                        <select id="package" name="package" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="single">Sesión Individual ($89)</option>
+                            <option value="pack4">Paquete 4 Sesiones ($299)</option>
+                            <option value="intensive">Mentoría Intensiva ($549)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">¿En qué te gustaría que trabajemos?</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Ejemplo: Necesito ayuda para mejorar mi portfolio y prepararme para entrevistas..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full btn-large">Enviar solicitud</button>
+
+                    <p style="margin-top: 1rem; text-align: center; font-size: 0.875rem; color: var(--gray-800);">
+                        Te responderé en menos de 24 horas
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>UX/UI Academy</h3>
+                    <p>Transformando diseñadores en profesionales de alto impacto</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="courses.html">Cursos</a></li>
+                            <li><a href="tutoring.html">Tutorías</a></li>
+                            <li><a href="live-courses.html">Cursadas en Vivo</a></li>
+                            <li><a href="business.html">Empresas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="mailto:contacto@uxuiacademy.com">contacto@uxuiacademy.com</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UX/UI Academy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
