@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesor de UX/UI - Cursos, tutorías y capacitación empresarial en diseño de experiencia de usuario e interfaces">
+    <title>UX/UI Academy - Aprende diseño profesional</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">UX/UI Academy</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#courses" class="nav-link">Cursos</a></li>
+                <li><a href="#tutoring" class="nav-link">Tutorías</a></li>
+                <li><a href="#live-courses" class="nav-link">Cursadas en Vivo</a></li>
+                <li><a href="#business" class="nav-link">Empresas</a></li>
+                <li><a href="#contact" class="nav-link btn-primary">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-tag">Aprende UX/UI Profesional</span>
+                    <h1 class="hero-title">
+                        Domina el diseño de
+                        <span class="gradient-text">experiencias memorables</span>
+                    </h1>
+                    <p class="hero-description">
+                        Cursos pregrabados, tutorías personalizadas y capacitación empresarial.
+                        Aprende con metodologías probadas y casos reales de la industria.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#courses" class="btn btn-primary">Ver Cursos</a>
+                        <a href="#tutoring" class="btn btn-secondary">Agendar Tutoría</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Estudiantes</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Cursos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Empresas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-card card-1">
+                        <div class="card-icon">🎨</div>
+                        <p>UI Design</p>
+                    </div>
+                    <div class="visual-card card-2">
+                        <div class="card-icon">👥</div>
+                        <p>UX Research</p>
+                    </div>
+                    <div class="visual-card card-3">
+                        <div class="card-icon">⚡</div>
+                        <p>Prototyping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-gradient"></div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section courses-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Aprende a tu ritmo</span>
+                <h2 class="section-title">Cursos Pregrabados</h2>
+                <p class="section-description">
+                    Accede a contenido de alta calidad disponible 24/7. Aprende cuando quieras, donde quieras.
+                </p>
+            </div>
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Course cards will be generated here -->
+                <div class="course-card">
+                    <div class="course-thumbnail">
+                        <span class="course-badge">Más popular</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-level">Principiante</span>
+                            <span class="course-duration">8 horas</span>
+                        </div>
+                        <h3 class="course-title">Fundamentos de UX/UI Design</h3>
+                        <p class="course-description">
+                            Aprende los principios básicos del diseño de experiencia de usuario e interfaces desde cero.
+                        </p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$49</span>
+                                <span class="price-original">$99</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-thumbnail"></div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-level">Intermedio</span>
+                            <span class="course-duration">12 horas</span>
+                        </div>
+                        <h3 class="course-title">Design Systems Avanzado</h3>
+                        <p class="course-description">
+                            Crea y gestiona sistemas de diseño escalables para productos digitales.
+                        </p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$89</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-thumbnail"></div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-level">Avanzado</span>
+                            <span class="course-duration">15 horas</span>
+                        </div>
+                        <h3 class="course-title">UX Research & Testing</h3>
+                        <p class="course-description">
+                            Domina las técnicas de investigación de usuarios y testing de usabilidad.
+                        </p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$129</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutoring Section -->
+    <section id="tutoring" class="section tutoring-section">
+        <div class="container">
+            <div class="tutoring-content">
+                <div class="tutoring-info">
+                    <span class="section-tag">Atención personalizada</span>
+                    <h2 class="section-title">Tutorías 1 a 1</h2>
+                    <p class="tutoring-description">
+                        Obtén mentoría personalizada para acelerar tu aprendizaje.
+                        Resuelve dudas específicas, revisa tu portfolio o recibe feedback sobre tus proyectos.
+                    </p>
+                    <ul class="tutoring-benefits">
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>Sesiones personalizadas</strong>
+                                <p>Adaptadas a tus necesidades y objetivos específicos</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>Feedback profesional</strong>
+                                <p>Revisión de portfolio y proyectos con consejos prácticos</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>Flexibilidad horaria</strong>
+                                <p>Agenda sesiones según tu disponibilidad</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tutoring-form-container">
+                    <form class="tutoring-form" id="tutoringForm">
+                        <h3>Solicita tu tutoría</h3>
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="level">Nivel de experiencia</label>
+                            <select id="level" name="level" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="beginner">Principiante</option>
+                                <option value="intermediate">Intermedio</option>
+                                <option value="advanced">Avanzado</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">¿Qué te gustaría aprender?</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Courses Section -->
+    <section id="live-courses" class="section live-courses-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Próximas fechas</span>
+                <h2 class="section-title">Cursadas en Vivo</h2>
+                <p class="section-description">
+                    Participa en clases en vivo con interacción directa. Cupos limitados.
+                </p>
+            </div>
+            <div class="live-course-highlight" id="liveCourseHighlight">
+                <!-- Dynamic content based on dates -->
+                <div class="live-course-card featured">
+                    <div class="live-badge">
+                        <span class="badge-dot"></span>
+                        Próximamente
+                    </div>
+                    <div class="live-content">
+                        <h3>Bootcamp Intensivo UX/UI</h3>
+                        <p class="live-description">
+                            4 semanas de inmersión completa en diseño UX/UI. Aprende desde investigación
+                            hasta prototipado avanzado con proyectos reales.
+                        </p>
+                        <div class="live-details">
+                            <div class="detail-item">
+                                <span class="detail-icon">📅</span>
+                                <div>
+                                    <strong>Inicio</strong>
+                                    <p>15 de Enero, 2026</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">⏰</span>
+                                <div>
+                                    <strong>Duración</strong>
+                                    <p>4 semanas · 3 clases/semana</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">👥</span>
+                                <div>
+                                    <strong>Cupos</strong>
+                                    <p>15 lugares disponibles</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="live-footer">
+                            <div class="live-price">
+                                <span class="price-label">Inversión</span>
+                                <span class="price-current">$499</span>
+                            </div>
+                            <a href="#contact" class="btn btn-primary">Reservar cupo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Section -->
+    <section id="business" class="section business-section">
+        <div class="container">
+            <div class="business-content">
+                <div class="business-header">
+                    <span class="section-tag">Para empresas</span>
+                    <h2 class="section-title">Capacitación de Equipos</h2>
+                    <p class="section-description">
+                        Potencia las habilidades de tu equipo de UX, UI y desarrollo con
+                        programas de capacitación personalizados y enfocados en resultados.
+                    </p>
+                </div>
+
+                <div class="business-profile">
+                    <div class="profile-content">
+                        <h3>¿Por qué capacitar con nosotros?</h3>
+                        <p>
+                            Con más de X años de experiencia en la industria, he trabajado en
+                            proyectos desde startups hasta empresas Fortune 500. Mi enfoque combina
+                            teoría sólida con aplicación práctica inmediata.
+                        </p>
+                        <div class="profile-expertise">
+                            <div class="expertise-item">
+                                <h4>Experiencia comprobada</h4>
+                                <p>50+ empresas capacitadas con resultados medibles</p>
+                            </div>
+                            <div class="expertise-item">
+                                <h4>Metodología práctica</h4>
+                                <p>Workshops hands-on con casos reales de tu industria</p>
+                            </div>
+                            <div class="expertise-item">
+                                <h4>Resultados tangibles</h4>
+                                <p>Mejora inmediata en procesos y calidad de entregables</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="business-services">
+                    <h3>Servicios de capacitación</h3>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">🎯</div>
+                            <h4>UX Strategy</h4>
+                            <p>Aprende a alinear diseño con objetivos de negocio</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">🎨</div>
+                            <h4>UI Design Systems</h4>
+                            <p>Crea y escala sistemas de diseño robustos</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">🔍</div>
+                            <h4>User Research</h4>
+                            <p>Domina técnicas de investigación de usuarios</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">⚡</div>
+                            <h4>Design to Dev</h4>
+                            <p>Mejora la comunicación diseño-desarrollo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="business-cta">
+                    <div class="cta-content">
+                        <h3>¿Listo para elevar el nivel de tu equipo?</h3>
+                        <p>Agenda una consulta gratuita para discutir las necesidades de tu empresa</p>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-large">Agendar consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>UX/UI Academy</h3>
+                    <p>Transformando diseñadores en profesionales de alto impacto</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#courses">Cursos</a></li>
+                            <li><a href="#tutoring">Tutorías</a></li>
+                            <li><a href="#live-courses">Cursadas en Vivo</a></li>
+                            <li><a href="#business">Empresas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="mailto:contacto@uxuiacademy.com">contacto@uxuiacademy.com</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UX/UI Academy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
